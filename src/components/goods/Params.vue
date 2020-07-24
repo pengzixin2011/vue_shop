@@ -260,7 +260,6 @@ methods:{
     },
     // 删除
     async deleById(id){
-      console.log(id);
       // 弹框询问用户是否删除数据
       const confirmResult = await this.$confirm(
         '此操作将永久删除该参数, 是否继续?',
